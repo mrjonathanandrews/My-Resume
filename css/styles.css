@@ -64,3 +64,34 @@ h4 {
 .skills {
     display: flex;
 }
+
+#gallery div img {
+    height: 75vw;
+}
+
+#gallery div img:hover {
+    cursor: pointer;
+}
+
+ @media (min-width: 576px) {
+    #gallery div img {
+        height: 35vw;
+    }
+}
+
+@media (min-width: 992px) {
+    #gallery div img {
+        height: 25vw;
+    }
+}
+
+/* .carousel-item img {
+    height: 80vw;
+    object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    .carousel-item img {
+        height: 350px;
+    }
+} */
