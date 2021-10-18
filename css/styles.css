@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #c7d68b; 
+    padding: 50px 0 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header-hr {
+    margin: 8px 0;
+}
+
+.contact-info {
+    text-align: center;    
+}
+
+.contact-link {
+    color: #000000;
+    /* justify-content: center; */
+}
+
+.contact-link:hover {
+    text-decoration: none;
+}
+
+.mission-statement {
+    text-align: center;
+    line-height: 1.25;
+    padding: 30px 30px 14px;
+    font-size: 22px;
+}
+
+.professional-profile {
+    display: flex;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0 0 0 10px
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0 0 0 20px;
+}
+
+.skills {
+    display: flex;
+}
