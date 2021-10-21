@@ -109,14 +109,14 @@ header {
     font-weight: bold;
 }
 
-.ssc-as + .ssc-wdc,
-.ssc-wdc + .aws-ccp,
-.aws-ccp + .continuing-ed {
+.continuing-ed + .aws-ccp,
+.aws-ccp + .ssc-as,
+.ssc-as + .ssc-wdc {
     padding-top: 1rem;
 }
 
 .continuing-ed h3 {
-    padding-bottom: 1rem;
+    padding-bottom: 0.25rem;
 }
 
 .website-portfolio-partial h2 {
