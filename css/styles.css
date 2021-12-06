@@ -101,6 +101,7 @@ header {
 .ssc-as h3,
 .ssc-wdc h3,
 .aws-ccp h3,
+.hubspot-inbound h3,
 .continuing-ed h3,
 .other-work-experience h3,
 .other-education h3,
@@ -109,9 +110,10 @@ header {
     font-weight: bold;
 }
 
-.continuing-ed + .aws-ccp,
+.hubspot-inbound + .aws-ccp,
 .aws-ccp + .ssc-as,
-.ssc-as + .ssc-wdc {
+.ssc-as + .ssc-wdc,
+.ssc-wdc + .continuing-ed {
     padding-top: 1rem;
 }
 
